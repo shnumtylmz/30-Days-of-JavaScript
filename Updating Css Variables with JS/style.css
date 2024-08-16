@@ -1,0 +1,48 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.controls{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    margin-top: 100px;
+    font-size: 52px;
+}
+
+label, input{
+    margin: 10px;
+}
+
+label{
+    font-size: x-large;
+}
+
+img{
+    margin-top: 120px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.highlight{
+    color: var(--base);
+}
